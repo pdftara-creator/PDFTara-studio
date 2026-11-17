@@ -1,10 +1,11 @@
+
 <div align="center">
 
 # 📄 PDFTara Studio
 
 **The Local-First, AI-Native, All-in-One PDF Powerhouse for Global Users**
 
-[![Release](https://img.shields.io/badge/Release-v0.1.0-blue.svg?style=flat-square)](https://github.com/PDFCraftTool/PDFTara/releases)
+[![Release](https://img.shields.io/badge/Release-v0.1.0-blue.svg?style=flat-square)](https://github.com/pdftara-creator/PDFTara-studio/releases)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-green.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-orange.svg?style=flat-square)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -26,7 +27,7 @@
 
 ## 💡 Why PDFTara Studio?
 
-Most online and commercial PDF software suffer from severe limitations: **intrusive data privacy uploads, expensive recurring subscription models, cluttered interfaces, or slow rendering**. 
+Most online and commercial PDF software suffer from severe limitations: **intrusive data privacy uploads, expensive recurring subscription models, cluttered interfaces, or slow rendering**.
 
 **PDFTara Studio** is designed from the ground up as a modern, unified, clean-room desktop application. It merges the complete feature capabilities of international tools like **Stirling-PDF** and **BentoPDF** into a sleek, native desktop experience powered by **React 19 + Electron + Vite**, with zero external cloud dependencies.
 
@@ -60,7 +61,7 @@ Most online and commercial PDF software suffer from severe limitations: **intrus
 ## 🌟 Core Highlights & Architectural Features
 
 ### 🛡️ 100% Local-First & Zero Telemetry
-- All processing occurs directly on your physical machine. 
+- All processing occurs directly on your physical machine.
 - Files never touch any remote server, fulfilling strict compliance requirements (HIPAA, GDPR, enterprise financial regulations).
 
 ### 🤖 Offline AI Copilot & ReAct Intelligent Agent
@@ -176,7 +177,8 @@ Most online and commercial PDF software suffer from severe limitations: **intrus
 ## 🚀 Quick Start & Installation
 
 ### Option 1: Download Pre-built Binaries (Recommended)
-Download the latest pre-compiled releases from our [**GitHub Releases**](https://github.com/your-username/PDFTara/releases) page:
+
+Download the latest pre-compiled releases from our [**GitHub Releases**](https://github.com/pdftara-creator/PDFTara-studio/releases) page:
 
 - **Windows**:
   - `PDFTara Studio-x.x.x-win-x64.exe` (Portable Single-File, double-click to run)
@@ -198,10 +200,11 @@ Download the latest pre-compiled releases from our [**GitHub Releases**](https:/
 - *(Optional)* Python 3.10+ (for advanced OCR and table extraction sidecars)
 
 #### Installation & Development
+
 ```bash
 # 1. Clone repository
-git clone https://github.com/PDFCraftTool/PDFTara.git
-cd PDFTara
+git clone https://github.com/pdftara-creator/PDFTara-studio.git
+cd PDFTara-studio
 
 # 2. Install dependencies
 pnpm install
@@ -214,6 +217,7 @@ pnpm test
 ```
 
 #### Package for Production
+
 ```bash
 # Package for current OS
 pnpm electron:build
